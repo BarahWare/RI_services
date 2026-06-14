@@ -4,12 +4,16 @@ import { siteConfig } from '@/lib/metadata'
 
 const footerLinks = {
   servicios: [
-    { label: 'Plomería', href: '#servicios' },
-    { label: 'Gas', href: '#servicios' },
+    { label: 'Agua', href: '#servicios' },
     { label: 'Electricidad', href: '#servicios' },
-    { label: 'Obras y Reformas', href: '#servicios' },
-    { label: 'Cloacas', href: '#servicios' },
-    { label: 'Tanques y Bombas', href: '#servicios' },
+    { label: 'Gas', href: '#servicios' },
+    { label: 'Albañilería y Construcción', href: '#servicios' },
+    { label: 'Tanques', href: '#servicios' },
+    { label: 'Bombas', href: '#servicios' },
+    { label: 'Desagüe y Cloacas', href: '#servicios' },
+    { label: 'Instalación Sanitaria', href: '#servicios' },
+    { label: 'Mantenimiento Gas', href: '#servicios' },
+    { label: 'Final de Obras', href: '#servicios' },
   ],
   empresa: [
     { label: 'Inicio', href: '#inicio' },

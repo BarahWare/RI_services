@@ -25,6 +25,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# media - use gifs instead
+*.mp4
+
 # vercel
 .vercel
 
