@@ -20,13 +20,13 @@ export default function Gallery({ images, title }: GalleryProps) {
 
   return (
     <>
-      <div className="relative mt-4">
+      <div className="relative mt-4 w-full min-w-0">
         <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-secondary-400">
           {title || 'Galería'}
         </p>
         <div
           ref={scrollRef}
-          className="scrollbar-thin flex snap-x snap-mandatory gap-2 overflow-x-auto pb-2"
+          className="scrollbar-thin flex w-full max-w-full snap-x snap-mandatory gap-2 overflow-x-auto pb-2"
         >
           {images.map((src, i) => {
             const isAnim = src.endsWith('.gif') || src.endsWith('.mp4')

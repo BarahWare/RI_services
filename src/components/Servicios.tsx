@@ -220,7 +220,7 @@ export default function Servicios() {
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {servicios.map((servicio) => (
-            <div key={servicio.title} className="card-service group">
+            <div key={servicio.title} className="card-service group min-w-0">
               <div className="mb-4 inline-flex rounded-xl bg-primary-50 p-3 text-primary-500 transition-colors group-hover:bg-primary-500 group-hover:text-white">
                 {servicio.icon}
               </div>
