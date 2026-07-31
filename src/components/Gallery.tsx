@@ -2,6 +2,7 @@
 
 import { useState, useRef } from 'react'
 import Lightbox from 'yet-another-react-lightbox'
+import Video from 'yet-another-react-lightbox/plugins/video'
 import 'yet-another-react-lightbox/styles.css'
 
 interface GalleryProps {
@@ -14,7 +15,11 @@ export default function Gallery({ images, title }: GalleryProps) {
   const [index, setIndex] = useState(0)
   const scrollRef = useRef<HTMLDivElement>(null)
 
-  const slides = images.map((src) => ({ src }))
+  const slides = images.map((src) =>
+    src.endsWith('.mp4')
+      ? { type: 'video' as const, sources: [{ src, type: 'video/mp4' }] }
+      : { src },
+  )
 
   if (images.length === 0) return null
 
@@ -57,6 +62,7 @@ export default function Gallery({ images, title }: GalleryProps) {
         close={() => setOpen(false)}
         index={index}
         slides={slides}
+        plugins={[Video]}
       />
     </>
   )
