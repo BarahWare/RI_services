@@ -7,7 +7,7 @@ export const siteConfig = {
   url: 'https://rubenservicios.com',
   whatsapp: 'https://wa.me/543515149748?text=Hola%2C%20quisiera%20consultar%20por%20un%20trabajo.',
   phone: '+54 351 514-9748',
-  email: 'info@rubenservicios.com',
+  email: 'ra.sanfco@gmail.com',
   location: 'Córdoba, Argentina',
 }
 
