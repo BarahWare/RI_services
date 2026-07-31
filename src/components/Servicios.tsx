@@ -217,10 +217,10 @@ const servicios = [
     ],
     images: [
       '/images/Clean/IMG-20260730-2124.jpg',
-      '/images/Clean/VID-20260730-2124.mp4',
-      '/images/Clean/VID-20260730-2143.mp4',
-      '/images/Clean/VID-20260730-2144.mp4',
-      '/images/Clean/VID-20260731-1920.mp4',
+      '/images/Clean/VID-20260730-2124.gif',
+      '/images/Clean/VID-20260730-2143.gif',
+      '/images/Clean/VID-20260730-2144.gif',
+      '/images/Clean/VID-20260731-1920.gif',
     ],
   },
 ]

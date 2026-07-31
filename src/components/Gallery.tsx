@@ -2,7 +2,6 @@
 
 import { useState, useRef } from 'react'
 import Lightbox from 'yet-another-react-lightbox'
-import Video from 'yet-another-react-lightbox/plugins/video'
 import 'yet-another-react-lightbox/styles.css'
 
 interface GalleryProps {
@@ -15,11 +14,7 @@ export default function Gallery({ images, title }: GalleryProps) {
   const [index, setIndex] = useState(0)
   const scrollRef = useRef<HTMLDivElement>(null)
 
-  const slides = images.map((src) =>
-    src.endsWith('.mp4')
-      ? { type: 'video' as const, sources: [{ src, type: 'video/mp4' }] }
-      : { src },
-  )
+  const slides = images.map((src) => ({ src }))
 
   if (images.length === 0) return null
 
@@ -34,8 +29,8 @@ export default function Gallery({ images, title }: GalleryProps) {
           className="scrollbar-thin flex w-full max-w-full snap-x snap-mandatory gap-2 overflow-x-auto pb-2"
         >
           {images.map((src, i) => {
-            const isAnim = src.endsWith('.gif') || src.endsWith('.mp4')
-            const thumb = isAnim ? src.replace(/\.(gif|mp4)$/, '.poster.jpg') : src
+            const isAnim = src.endsWith('.gif')
+            const thumb = isAnim ? src.replace(/\.gif$/, '.poster.jpg') : src
             return (
               <button
                 key={i}
@@ -62,7 +57,6 @@ export default function Gallery({ images, title }: GalleryProps) {
         close={() => setOpen(false)}
         index={index}
         slides={slides}
-        plugins={[Video]}
       />
     </>
   )
