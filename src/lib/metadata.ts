@@ -5,8 +5,8 @@ export const siteConfig = {
   description:
     'Servicios profesionales de plomería, gas, electricidad, cloacas y obras en general. Urgencias domiciliarias, instalaciones completas y reparaciones. Presupuesto sin cargo.',
   url: 'https://rubenservicios.com',
-  whatsapp: 'https://wa.me/543518751067?text=Hola%2C%20quisiera%20consultar%20por%20un%20trabajo.',
-  phone: '+54 351 875-1067',
+  whatsapp: 'https://wa.me/543515149748?text=Hola%2C%20quisiera%20consultar%20por%20un%20trabajo.',
+  phone: '+54 351 514-9748',
   email: 'info@rubenservicios.com',
   location: 'Córdoba, Argentina',
 }
