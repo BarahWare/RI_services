@@ -23,7 +23,6 @@ export default function Hero() {
               para tu Hogar
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-white/80 md:text-xl">
-              Plomería, gas, electricidad, herrería, cloacas y obras en general.
               Plomería, gas, electricidad, cloacas, durlock, herrería y obras en general.
               Atención rápida, presupuesto sin cargo y trabajo garantizado
               en Córdoba y zona.
