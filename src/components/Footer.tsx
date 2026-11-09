@@ -16,6 +16,8 @@ const footerLinks = {
     { label: 'Mantenimiento Gas', href: '#servicios' },
     { label: 'Final de Obras', href: '#servicios' },
     { label: 'Herrería', href: '#servicios' },
+    { label: 'Cerramientos Piletas', href: '#servicios' },
+    { label: 'Limpieza Comercial y Obras', href: '#servicios' },
   ],
   empresa: [
     { label: 'Inicio', href: '#inicio' },

@@ -224,18 +224,51 @@ const servicios = [
       </svg>
     ),
     title: 'Herrería',
-    desc: 'Trabajos de herrería a medida: rejas, portones, puertas y ventanas, barandas, escaleras y estructuras metálicas, con soldadura y terminación antióxido y pintura.',
-    items: ['Rejas y portones', 'Puertas y ventanas de hierro', 'Barandas y escaleras', 'Estructuras y tinglados'],
+    desc: 'Trabajos de herrería a medida: rejas, portones, galerías, cocheras, pérgolas, techos metálicos, barras móviles y mobiliario en hierro y madera, con soldadura y terminación antióxido y pintura.',
+    items: [
+      'Rejas, portones y cerramientos en metal desplegado',
+      'Cocheras, galerías, pérgolas y techos metálicos',
+      'Barras móviles y muebles en hierro y madera',
+      'Puertas, ventanas, barandas y estructuras',
+    ],
     images: [
       '/images/Herreria/05_barra_frente_bambu.jpg',
       '/images/Herreria/06_barra_estantes_trasera.jpg',
       '/images/Herreria/07_juego_comedor_calado.jpg',
-      '/images/Herreria/10_tarima_modular_union.jpg',
+      '/images/Herreria/12_pergola_cochera_hierro.jpg',
       '/images/Herreria/13_estructura_galeria_chapa.jpg',
       '/images/Herreria/14_galeria_triple_columna.jpg',
+      '/images/Herreria/15_techo_pasillo_chapa.jpg',
       '/images/Herreria/16_cochera_led_noche.jpg',
       '/images/Herreria/17_estructura_techo_detalle.jpg',
       '/images/Herreria/18_cochera_frente_moderno.jpg',
+      '/images/Herreria/19_galeria_cochera_grande.jpg',
+      '/images/Herreria/rejas_05_frente_negra.jpg',
+      '/images/Herreria/rejas_09_cerramiento_metal_desplegado.jpg',
+    ],
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+      </svg>
+    ),
+    title: 'Cerramientos Piletas',
+    desc: 'Rejas laterales para piletas en material de hierro y cubre piletas transitables con estructura metálica y pasto sintético, para proteger y transformar el espacio sin perderlo durante el invierno o cuando no está en uso.',
+    items: [
+      'Rejas laterales y cercos perimetrales en hierro',
+      'Cubre pileta transitable con pasto sintético',
+      'Transformación del espacio en invierno o sin uso',
+      'Puertas de acceso y estructuras modulares a medida',
+    ],
+    images: [
+      '/images/Cerramientos-Piletas/14_cerco_pileta_completo.jpg',
+      '/images/Cerramientos-Piletas/13_cerco_pileta_detalle.jpg',
+      '/images/Cerramientos-Piletas/15_cerco_pileta_puerta.jpg',
+      '/images/Cerramientos-Piletas/11_cubre_pileta_completo.jpg',
+      '/images/Cerramientos-Piletas/08_cubre_pileta_perspectiva.jpg',
+      '/images/Cerramientos-Piletas/09_cubre_pileta_esquina.jpg',
+      '/images/Cerramientos-Piletas/10_cubre_pileta_union.jpg',
     ],
   },
   {
