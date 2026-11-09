@@ -14,6 +14,9 @@ const footerLinks = {
     { label: 'Instalación Sanitaria', href: '#servicios' },
     { label: 'Mantenimiento Gas', href: '#servicios' },
     { label: 'Final de Obras', href: '#servicios' },
+    { label: 'Limpieza Comercial y Obras', href: '#servicios' },
+    { label: 'Herrería, Galerías y Cocheras', href: '#servicios' },
+    { label: 'Rejas, Portones y Cercos', href: '#servicios' },
   ],
   empresa: [
     { label: 'Inicio', href: '#inicio' },

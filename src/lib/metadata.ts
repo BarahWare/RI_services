@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const siteConfig = {
-  name: 'Ruben Servicios | Plomería, Gas, Electricidad y Obras',
+  name: 'Ruben Servicios | Plomería, Gas, Electricidad, Herrería y Obras',
   description:
-    'Servicios profesionales de plomería, gas, electricidad, cloacas y obras en general. Urgencias domiciliarias, instalaciones completas y reparaciones. Presupuesto sin cargo.',
+    'Servicios profesionales de plomería, gas, electricidad, herrería, rejas, techos, cloacas y obras en general. Urgencias domiciliarias, instalaciones completas y reparaciones. Presupuesto sin cargo.',
   url: 'https://rubenservicios.com',
   whatsapp: 'https://wa.me/543515149748?text=Hola%2C%20quisiera%20consultar%20por%20un%20trabajo.',
   phone: '+54 351 514-9748',

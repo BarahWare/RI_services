@@ -223,6 +223,70 @@ const servicios = [
       '/images/Clean/VID-20260731-1920.gif',
     ],
   },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+      </svg>
+    ),
+    title: 'Herrería, Galerías, Cocheras y Mobiliario',
+    desc: 'Diseño, fabricación y montaje de estructuras metálicas a medida: galerías, pérgolas, cocheras, techos metálicos, barras móviles en hierro y madera, juegos de exterior calados y tarimas modulares.',
+    items: [
+      'Cocheras, galerías y pérgolas estructurales',
+      'Techos en perfiles de hierro, chapa y policarbonato',
+      'Barras móviles e islas en hierro y madera',
+      'Juegos de jardín calados y tarimas modulares',
+    ],
+    images: [
+      '/images/Herreria/05_barra_frente_bambu.jpg',
+      '/images/Herreria/06_barra_estantes_trasera.jpg',
+      '/images/Herreria/07_juego_comedor_calado.jpg',
+      '/images/Herreria/13_estructura_galeria_chapa.jpg',
+      '/images/Herreria/14_galeria_triple_columna.jpg',
+      '/images/Herreria/16_cochera_led_noche.jpg',
+      '/images/Herreria/17_estructura_techo_detalle.jpg',
+      '/images/Herreria/18_cochera_frente_moderno.jpg',
+      '/images/Herreria/10_tarima_modular_union.jpg',
+      '/images/Herreria/12_pergola_cochera_hierro.jpg',
+      '/images/Herreria/15_techo_pasillo_chapa.jpg',
+      '/images/Herreria/19_galeria_cochera_grande.jpg',
+      '/images/Herreria/08_tarima_modular_perspectiva.jpg',
+      '/images/Herreria/09_tarima_modular_esquina.jpg',
+      '/images/Herreria/11_tarima_modular_completa.jpg',
+    ],
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+      </svg>
+    ),
+    title: 'Rejas, Portones y Cercos de Pileta',
+    desc: 'Fabricación e instalación de rejas de seguridad para frentes, ventanas y balcones, portones corredizos y batientes, cerramientos en metal desplegado y cercos perimetrales para piletas.',
+    items: [
+      'Rejas de seguridad para frentes, ventanas y balcones',
+      'Portones corredizos, levadizos y batientes a medida',
+      'Cerramientos y puertas en metal desplegado',
+      'Cercos perimetrales de protección para piletas',
+    ],
+    images: [
+      '/images/Rejas/01_reja_ventana_moderna.jpg',
+      '/images/Rejas/02_porton_lamas_blanco.jpg',
+      '/images/Rejas/03_porton_barrotes_verticales.jpg',
+      '/images/Rejas/04_cerco_reja_esquina.jpg',
+      '/images/Rejas/05_reja_frente_negra.jpg',
+      '/images/Rejas/06_reja_horizontal_balcon.jpg',
+      '/images/Rejas/07_frente_reja_y_porton.jpg',
+      '/images/Rejas/08_reja_horizontal_blanca.jpg',
+      '/images/Rejas/09_cerramiento_metal_desplegado.jpg',
+      '/images/Rejas/10_galeria_metal_desplegado.jpg',
+      '/images/Rejas/11_frente_malla_desplegada.jpg',
+      '/images/Rejas/12_frente_duplex_portones.jpg',
+      '/images/Rejas/13_cerco_pileta_detalle.jpg',
+      '/images/Rejas/14_cerco_pileta_completo.jpg',
+      '/images/Rejas/15_cerco_pileta_puerta.jpg',
+    ],
+  },
 ]
 
 export default function Servicios() {
