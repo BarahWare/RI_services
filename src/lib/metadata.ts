@@ -33,6 +33,10 @@ export const metadata: Metadata = {
     'cisternas',
     'bombas presurizadoras',
     'griferías',
+    'construcción en seco',
+    'durlock en Córdoba',
+    'herrería',
+    'rejas y portones',
   ],
   openGraph: {
     title: siteConfig.name,

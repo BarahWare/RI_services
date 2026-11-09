@@ -95,6 +95,24 @@ const servicios = [
   {
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
+        <rect x="3.5" y="4.5" width="17" height="15" rx="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.5 12h17M12 4.5V12" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M7 8.25h.01M17 8.25h.01M7 15.75h.01M12 15.75h.01M17 15.75h.01" />
+      </svg>
+    ),
+    title: 'Construcción en Seco / Durlock',
+    desc: 'Tabiques, cielorrasos y revestimientos en placa de yeso (Durlock) con estructura de perfiles galvanizados. Obra limpia, rápida y con terminación lista para pintar.',
+    items: ['Tabiques divisorios', 'Cielorrasos suspendidos y a junta tomada', 'Revestimientos y muebles en placa', 'Aislación térmica y acústica'],
+    images: [
+      '/images/Durlock/durlock-01-estructura.jpg',
+      '/images/Durlock/durlock-02-placas.jpg',
+      '/images/Durlock/durlock-03-cielorraso.jpg',
+      '/images/Durlock/durlock-04-frente.jpg',
+    ],
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
       </svg>
     ),
@@ -202,6 +220,27 @@ const servicios = [
   {
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4 7h13a3 3 0 01-3 3h-1.5v2.5H15V16H8v-3.5h2.5V10H8a4 4 0 01-4-3zM6 16h11v3H6v-3z" />
+      </svg>
+    ),
+    title: 'Herrería',
+    desc: 'Trabajos de herrería a medida: rejas, portones, puertas y ventanas, barandas, escaleras y estructuras metálicas, con soldadura y terminación antióxido y pintura.',
+    items: ['Rejas y portones', 'Puertas y ventanas de hierro', 'Barandas y escaleras', 'Estructuras y tinglados'],
+    images: [
+      '/images/Herreria/05_barra_frente_bambu.jpg',
+      '/images/Herreria/06_barra_estantes_trasera.jpg',
+      '/images/Herreria/07_juego_comedor_calado.jpg',
+      '/images/Herreria/10_tarima_modular_union.jpg',
+      '/images/Herreria/13_estructura_galeria_chapa.jpg',
+      '/images/Herreria/14_galeria_triple_columna.jpg',
+      '/images/Herreria/16_cochera_led_noche.jpg',
+      '/images/Herreria/17_estructura_techo_detalle.jpg',
+      '/images/Herreria/18_cochera_frente_moderno.jpg',
+    ],
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
         <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.563.563 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
       </svg>
     ),
@@ -221,70 +260,6 @@ const servicios = [
       '/images/Clean/VID-20260730-2143.gif',
       '/images/Clean/VID-20260730-2144.gif',
       '/images/Clean/VID-20260731-1920.gif',
-    ],
-  },
-  {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
-      </svg>
-    ),
-    title: 'Herrería, Galerías, Cocheras y Mobiliario',
-    desc: 'Diseño, fabricación y montaje de estructuras metálicas a medida: galerías, pérgolas, cocheras, techos metálicos, barras móviles en hierro y madera, juegos de exterior calados y tarimas modulares.',
-    items: [
-      'Cocheras, galerías y pérgolas estructurales',
-      'Techos en perfiles de hierro, chapa y policarbonato',
-      'Barras móviles e islas en hierro y madera',
-      'Juegos de jardín calados y tarimas modulares',
-    ],
-    images: [
-      '/images/Herreria/05_barra_frente_bambu.jpg',
-      '/images/Herreria/06_barra_estantes_trasera.jpg',
-      '/images/Herreria/07_juego_comedor_calado.jpg',
-      '/images/Herreria/13_estructura_galeria_chapa.jpg',
-      '/images/Herreria/14_galeria_triple_columna.jpg',
-      '/images/Herreria/16_cochera_led_noche.jpg',
-      '/images/Herreria/17_estructura_techo_detalle.jpg',
-      '/images/Herreria/18_cochera_frente_moderno.jpg',
-      '/images/Herreria/10_tarima_modular_union.jpg',
-      '/images/Herreria/12_pergola_cochera_hierro.jpg',
-      '/images/Herreria/15_techo_pasillo_chapa.jpg',
-      '/images/Herreria/19_galeria_cochera_grande.jpg',
-      '/images/Herreria/08_tarima_modular_perspectiva.jpg',
-      '/images/Herreria/09_tarima_modular_esquina.jpg',
-      '/images/Herreria/11_tarima_modular_completa.jpg',
-    ],
-  },
-  {
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-8 w-8">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
-      </svg>
-    ),
-    title: 'Rejas, Portones y Cercos de Pileta',
-    desc: 'Fabricación e instalación de rejas de seguridad para frentes, ventanas y balcones, portones corredizos y batientes, cerramientos en metal desplegado y cercos perimetrales para piletas.',
-    items: [
-      'Rejas de seguridad para frentes, ventanas y balcones',
-      'Portones corredizos, levadizos y batientes a medida',
-      'Cerramientos y puertas en metal desplegado',
-      'Cercos perimetrales de protección para piletas',
-    ],
-    images: [
-      '/images/Rejas/01_reja_ventana_moderna.jpg',
-      '/images/Rejas/02_porton_lamas_blanco.jpg',
-      '/images/Rejas/03_porton_barrotes_verticales.jpg',
-      '/images/Rejas/04_cerco_reja_esquina.jpg',
-      '/images/Rejas/05_reja_frente_negra.jpg',
-      '/images/Rejas/06_reja_horizontal_balcon.jpg',
-      '/images/Rejas/07_frente_reja_y_porton.jpg',
-      '/images/Rejas/08_reja_horizontal_blanca.jpg',
-      '/images/Rejas/09_cerramiento_metal_desplegado.jpg',
-      '/images/Rejas/10_galeria_metal_desplegado.jpg',
-      '/images/Rejas/11_frente_malla_desplegada.jpg',
-      '/images/Rejas/12_frente_duplex_portones.jpg',
-      '/images/Rejas/13_cerco_pileta_detalle.jpg',
-      '/images/Rejas/14_cerco_pileta_completo.jpg',
-      '/images/Rejas/15_cerco_pileta_puerta.jpg',
     ],
   },
 ]
